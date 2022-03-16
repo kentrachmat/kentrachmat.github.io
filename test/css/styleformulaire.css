@@ -1,0 +1,36 @@
+        body {
+            background-color: antiquewhite;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input[type=text],
+        select {
+            width: 15%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button[type=submit] {
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border-radius: 6px;
+
+        }
+
+        button[type=submit]:hover {
+            background-color: green;
+        }
+
+        form input[name='word']:disabled {
+            color: lightgrey;
+            opacity: 0.2;
+        }
