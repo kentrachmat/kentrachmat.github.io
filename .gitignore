@@ -1,7 +1,7 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/java,macos,bluej,netbeans
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,macos,bluej,netbeans
-
+.DS_Store
 ### bluej ###
 # BlueJ: A Java IDE for programming beginners. http://bluej.org
 
@@ -22,7 +22,6 @@ bluej.pkh
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
 # Package Files #
 *.jar
 *.war
@@ -37,6 +36,7 @@ hs_err_pid*
 
 ### macOS ###
 # General
+
 .AppleDouble
 .LSOverride
 
